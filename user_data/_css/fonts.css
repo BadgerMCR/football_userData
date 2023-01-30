@@ -1,0 +1,10 @@
+
+@font-face {
+font-family: tusker-grotesk;
+src: url('../_fonts/FSHackneyTrial-Bold.otf')
+}
+
+.hackneybold{
+font-family: tusker-grotesk;
+}
+
