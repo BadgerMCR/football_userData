@@ -1,0 +1,16 @@
+{
+  "port": "3000",
+  "logging": {
+    "level": "LOW"
+  },
+  "updates": {
+    "channel": "latest"
+  },
+  "window": {
+    "x": 0,
+    "y": 23,
+    "width": 1440,
+    "height": 798
+  },
+  "sendDiagnostics": false
+}
