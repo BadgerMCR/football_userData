@@ -1,0 +1,1295 @@
+{
+  "style": {
+    "activeTheme": "rugby.styl",
+    "primary_color": "rgba(234, 223, 19, 1)",
+    "secondary_color": "rgba(52, 84, 123, 1)",
+    "background_a": "rgba(38, 38, 38, 0.9)",
+    "background_b": "rgba(79, 79, 79, 0.9)",
+    "text_a": "rgb(219, 219, 219)",
+    "text_b": "rgb(0, 0, 0)",
+    "global_padding": 6,
+    "widget_padding": 1.5,
+    "widget_offset": 2,
+    "widget_repositioning": true,
+    "font_size": 3,
+    "canvas_bg": "rgba(255, 255, 255, 0)",
+    "enter_animation": "fade.js",
+    "enter_ease": "Expo",
+    "enter_duration": 700,
+    "leave_animation": "fade.js",
+    "leave_ease": "Expo",
+    "leave_duration": 700,
+    "reposition_ease": "Expo",
+    "reposition_duration": 700
+  },
+  "widgets": [
+    {
+      "type": "halftimebug",
+      "name": "halftime bug",
+      "style": {
+        "horizontal_offset": -5,
+        "vertical_offset": 2,
+        "horizontal_position": "left",
+        "vertical_position": "bottom",
+        "widget_wrapping": true,
+        "height": "105",
+        "width": "100",
+        "enter_animation": "fade.js",
+        "leave_animation": "fade.js"
+      },
+      "props": {},
+      "id": "DSMKdrLYPSnvgDMt"
+    },
+    {
+      "type": "startingholdinggraphic",
+      "name": "starting holding graphic",
+      "style": {
+        "width": "110",
+        "height": "",
+        "horizontal_position": "left",
+        "vertical_position": "bottom",
+        "horizontal_offset": -7,
+        "enter_animation": "zoomIn.js",
+        "enter_ease": "Expo",
+        "enter_duration": "700",
+        "leave_animation": "slideUp.js",
+        "leave_ease": "Expo",
+        "leave_duration": 700
+      },
+      "props": {},
+      "id": "RaLcfxMRtGtgNWMr"
+    },
+    {
+      "type": "L3",
+      "name": "Lower Third",
+      "style": {
+        "height": "106",
+        "enter_animation": "slideRight.js",
+        "leave_animation": "slideLeft.js",
+        "horizontal_position": "left",
+        "vertical_position": "bottom",
+        "horizontal_offset": 6,
+        "vertical_offset": 78,
+        "width": "100"
+      },
+      "props": {},
+      "id": "uKiCDIXQkxFPOWbM"
+    },
+    {
+      "type": "TeamSheet",
+      "name": "Team Sheet Saracens",
+      "style": {
+        "horizontal_position": "center",
+        "vertical_position": "top",
+        "height": "100",
+        "horizontal_offset": -6,
+        "vertical_offset": -5,
+        "width": "100",
+        "enter_animation": "slideLetters.js",
+        "enter_duration": "700",
+        "leave_animation": "zoomOut.js",
+        "leave_ease": "Expo",
+        "leave_duration": 700,
+        "widget_wrapping": true
+      },
+      "props": {},
+      "id": "KfMmQiLdRgSZtBkZ"
+    },
+    {
+      "type": "TeamSheetB",
+      "name": "TeamSheet Gloucester",
+      "style": {
+        "width": "100",
+        "height": "100",
+        "horizontal_offset": -6,
+        "vertical_offset": -5,
+        "enter_animation": "slideLetters.js",
+        "enter_ease": "Expo",
+        "enter_duration": "700",
+        "leave_animation": "zoomOut.js",
+        "leave_ease": "Expo",
+        "leave_duration": 700
+      },
+      "props": {},
+      "id": "oCojXdEkZwrEyFjp"
+    },
+    {
+      "type": "Replacements",
+      "name": "",
+      "style": {
+        "horizontal_offset": -6,
+        "vertical_offset": -4,
+        "enter_animation": "slideLetters.js",
+        "leave_animation": "zoomOut.js",
+        "horizontal_position": "left",
+        "vertical_position": "bottom",
+        "widget_wrapping": true,
+        "height": "100",
+        "width": "100"
+      },
+      "props": {},
+      "id": "dZYWAIacwGtuDyze"
+    },
+    {
+      "type": "round4",
+      "name": "round4",
+      "style": {
+        "width": "100",
+        "height": "100",
+        "horizontal_position": "left",
+        "vertical_position": "bottom",
+        "horizontal_offset": -6.6,
+        "font_size": "3",
+        "vertical_offset": -8.5,
+        "enter_animation": "zoomIn.js",
+        "leave_animation": "fade.js"
+      },
+      "props": {},
+      "id": "ZGivpgcPRoCTSkIB"
+    },
+    {
+      "type": "Countdown",
+      "name": "Countdown",
+      "style": {
+        "enter_animation": "rotateDown.js",
+        "enter_ease": "Expo",
+        "enter_duration": 700,
+        "leave_animation": "rotateUp.js",
+        "leave_ease": "Expo",
+        "leave_duration": 700,
+        "horizontal_position": "left",
+        "vertical_position": "top",
+        "widget_wrapping": false,
+        "width": "80",
+        "height": "100",
+        "horizontal_offset": -3,
+        "vertical_offset": -9
+      },
+      "props": {
+        "type": "timer",
+        "seconds": "80:00",
+        "count_up": true,
+        "running": true,
+        "format": "$MM:$SS",
+        "teamAname": "SAR",
+        "visibility": false,
+        "teamBname": "G-H",
+        "scoreA": "7",
+        "scoreB": "53",
+        "redbtn": true,
+        "colorA": "rgba(166, 167, 116, 1)",
+        "colorB": "rgba(0, 255, 230, 1)"
+      },
+      "id": "pLJISyotkLOLbDKY"
+    },
+    {
+      "type": "try_card",
+      "name": "try_card_SAR",
+      "style": {
+        "widget_wrapping": false,
+        "horizontal_position": "center",
+        "vertical_position": "top",
+        "horizontal_offset": -81.1,
+        "global_padding": 6,
+        "width": "10",
+        "vertical_offset": -11.6
+      },
+      "props": {},
+      "id": "RqVdNJDLxIPFLpNJ"
+    },
+    {
+      "type": "try_card2",
+      "name": "try_card_GLO",
+      "style": {
+        "widget_wrapping": false,
+        "width": "10",
+        "horizontal_position": "center",
+        "vertical_position": "bottom",
+        "vertical_offset": -89,
+        "horizontal_offset": -23.5
+      },
+      "props": {},
+      "id": "pGkRqhjHdDbXwRCa"
+    },
+    {
+      "type": "yellow_card2",
+      "name": "yellow_card_SAR",
+      "style": {
+        "horizontal_position": "left",
+        "vertical_position": "bottom",
+        "horizontal_offset": 8.1,
+        "vertical_offset": -89,
+        "widget_wrapping": false,
+        "enter_animation": "fade.js",
+        "global_padding": 6,
+        "width": "10"
+      },
+      "props": {},
+      "id": "RUJKGKUOHrdextHV"
+    },
+    {
+      "type": "yellow_card",
+      "name": "yellow_card_GLO",
+      "style": {
+        "horizontal_position": "left",
+        "vertical_position": "top",
+        "height": "",
+        "vertical_offset": -101.4,
+        "horizontal_offset": -26,
+        "widget_wrapping": false,
+        "width": "10",
+        "widget_padding": "0"
+      },
+      "props": {},
+      "id": "CVpPXsocryhEURyc"
+    },
+    {
+      "type": "red_card",
+      "name": "red_card_SAR",
+      "style": {
+        "horizontal_position": "left",
+        "vertical_position": "center",
+        "width": "10",
+        "widget_wrapping": false,
+        "horizontal_offset": -40,
+        "vertical_offset": -54.2
+      },
+      "props": {},
+      "id": "iYVRVBrVNaSLHlEX"
+    },
+    {
+      "type": "red_card2",
+      "name": "red_card_GLO",
+      "style": {
+        "widget_wrapping": false,
+        "horizontal_position": "center",
+        "vertical_position": "center",
+        "horizontal_offset": -21.3,
+        "width": "10",
+        "vertical_offset": -46.4
+      },
+      "props": {},
+      "id": "rpHoUwhXkuonOWpy"
+    },
+    {
+      "type": "fulltimebug",
+      "name": "",
+      "style": {
+        "horizontal_position": "left",
+        "vertical_position": "bottom",
+        "width": "100",
+        "height": "105",
+        "widget_padding": "1.5",
+        "horizontal_offset": -5,
+        "vertical_offset": 2,
+        "enter_animation": "fade.js",
+        "leave_animation": "fade.js"
+      },
+      "props": {},
+      "id": "wGHcslFSsluUIBAB"
+    },
+    {
+      "type": "fulltimeholdinggraphic",
+      "name": "",
+      "style": {
+        "horizontal_position": "center",
+        "vertical_position": "center",
+        "width": "110",
+        "height": "102.5",
+        "horizontal_offset": -1,
+        "vertical_offset": -10,
+        "enter_animation": "fade.js",
+        "leave_animation": "fade.js",
+        "widget_wrapping": true
+      },
+      "props": {},
+      "id": "CoLDVpZAAcBdQIRt"
+    },
+    {
+      "type": "playerannouncementsaracens",
+      "name": "",
+      "style": {
+        "width": "100",
+        "height": "200",
+        "horizontal_position": "left",
+        "vertical_position": "bottom",
+        "horizontal_offset": -4,
+        "vertical_offset": 95,
+        "enter_animation": "slideRight.js",
+        "leave_animation": "slideLeft.js"
+      },
+      "props": {},
+      "id": "hijNuEeBhIBNhCbE"
+    },
+    {
+      "type": "playerannouncementforgloucester",
+      "name": "",
+      "style": {
+        "height": "0",
+        "width": "100",
+        "horizontal_position": "center",
+        "vertical_position": "bottom",
+        "horizontal_offset": 14,
+        "vertical_offset": 3,
+        "enter_animation": "slideRight.js",
+        "leave_animation": "slideLeft.js"
+      },
+      "props": {},
+      "id": "zaWAxZNtpgpVAAvh"
+    },
+    {
+      "type": "stats",
+      "name": "stats",
+      "style": {
+        "widget_wrapping": true,
+        "width": "100",
+        "height": "100",
+        "horizontal_position": "left",
+        "vertical_position": "center",
+        "horizontal_offset": -6.1,
+        "vertical_offset": -5,
+        "enter_animation": "zoomIn.js",
+        "leave_animation": "fade.js"
+      },
+      "props": {},
+      "id": "UvfUylRNBVCknAiu"
+    },
+    {
+      "type": "Fixtures",
+      "name": "",
+      "style": {
+        "width": "100",
+        "height": "110",
+        "horizontal_position": "center",
+        "vertical_position": "center",
+        "horizontal_offset": -8,
+        "vertical_offset": -5,
+        "enter_animation": "zoomIn.js",
+        "enter_ease": "Expo",
+        "enter_duration": 700,
+        "leave_animation": "zoomOut.js",
+        "leave_ease": "Expo",
+        "leave_duration": 700
+      },
+      "props": {},
+      "id": "tDfalXdQdERetPLt"
+    },
+    {
+      "type": "leaguetable",
+      "name": "",
+      "style": {
+        "width": "100",
+        "horizontal_position": "left",
+        "vertical_position": "center",
+        "height": "110",
+        "horizontal_offset": -6,
+        "widget_wrapping": true,
+        "enter_animation": "slideLetters.js"
+      },
+      "props": {},
+      "id": "BVOdXCstWNFdZTeO"
+    },
+    {
+      "type": "Confetti",
+      "name": "",
+      "style": {},
+      "props": {
+        "visibility": false
+      },
+      "id": "EJCthcuOcKyoucBU"
+    },
+    {
+      "type": "playerannouncementforgloucester",
+      "name": "",
+      "style": {},
+      "props": {},
+      "id": "JUFhJGKQXhVJwqzM"
+    },
+    {
+      "type": "footballtest",
+      "name": "",
+      "style": {
+        "widget_wrapping": true,
+        "width": "100",
+        "height": "100",
+        "horizontal_position": "left",
+        "vertical_position": "bottom"
+      },
+      "props": {},
+      "id": "NZZHGxNUjSPcGyCQ"
+    }
+  ],
+  "entries": [
+    {
+      "widgetId": "KfMmQiLdRgSZtBkZ",
+      "props": {
+        "fwd1": "Kelsey Clifford",
+        "fwd2": "May Campbell",
+        "fwd3": "Alex Ellis",
+        "fwd4": "Fiona McIntosh",
+        "fwd5": "Catha Jacobs",
+        "fwd6": "Louise McMillan",
+        "fwd7": "Sharifa Kasolo",
+        "fwd8": "Grace Moore",
+        "backs1": "Ella Wyrwas",
+        "backs2": "Holly Aitchison",
+        "backs3": "Lotte Clapp (c)",
+        "backs4": "Hannah Casey",
+        "backs5": "Sydney Gregson",
+        "backs6": "Coreen Grant",
+        "backs7": "Isla Alejandro",
+        "backs8": "Alex Austerberry"
+      },
+      "visibility": false,
+      "id": "UUzNcOGHHvcNTOVj"
+    },
+    {
+      "widgetId": "oCojXdEkZwrEyFjp",
+      "props": {
+        "fwd1": "Maud Muir",
+        "fwd2": "Kelsey Jones",
+        "fwd3": "Laura Delgado",
+        "fwd4": "Gwen Crabb",
+        "fwd5": "Samantha Monaghan",
+        "fwd6": "Neve Jones",
+        "fwd7": "Bethan Lewis",
+        "fwd8": "Sarah Beckett",
+        "backs1": "Natasha Hunt (C)",
+        "backs2": "Llleucu George",
+        "backs3": "Lisa Neumann",
+        "backs4": "Sophie Bridger",
+        "backs5": "Rachel Lund",
+        "backs6": "Ellie Rugman",
+        "backs7": "Emma Sing",
+        "backs8": "Sean Lynn"
+      },
+      "visibility": false,
+      "id": "DttpcBgcTkNzGKfU"
+    },
+    {
+      "widgetId": "tDfalXdQdERetPLt",
+      "props": {},
+      "visibility": false,
+      "id": "xfKXscRRqRIPUhcS"
+    },
+    {
+      "widgetId": "tDfalXdQdERetPLt",
+      "props": {},
+      "visibility": false,
+      "id": "FkVjfdyYhPLoPiMe"
+    },
+    {
+      "widgetId": "tDfalXdQdERetPLt",
+      "props": {},
+      "visibility": false,
+      "id": "ajCieYWqrEzJNGIO"
+    },
+    {
+      "widgetId": "RaLcfxMRtGtgNWMr",
+      "props": {},
+      "visibility": false,
+      "id": "edsqHIkoTSQzLHqQ"
+    },
+    {
+      "widgetId": "CoLDVpZAAcBdQIRt",
+      "props": {
+        "score1": "7",
+        "score2": "53"
+      },
+      "visibility": false,
+      "id": "vLHLRBtPvmOHeycB"
+    },
+    {
+      "widgetId": "DSMKdrLYPSnvgDMt",
+      "props": {
+        "score1": "0",
+        "score2": "29"
+      },
+      "visibility": false,
+      "id": "ePzUBqeYrvZsMKCT"
+    },
+    {
+      "widgetId": "RaLcfxMRtGtgNWMr",
+      "props": {},
+      "visibility": false,
+      "id": "yvuUAwKZdoBUHuju"
+    },
+    {
+      "widgetId": "CVpPXsocryhEURyc",
+      "props": {
+        "number_of_cards": "1"
+      },
+      "visibility": false,
+      "id": "VNiVpJHlCocLowon"
+    },
+    {
+      "widgetId": "RUJKGKUOHrdextHV",
+      "props": {
+        "number_of_cards": "1"
+      },
+      "visibility": false,
+      "id": "oFfUwrIAGqQaIOTD"
+    },
+    {
+      "widgetId": "RaLcfxMRtGtgNWMr",
+      "props": {},
+      "visibility": false,
+      "id": "ZhwrjTsCtQWrHeOo"
+    },
+    {
+      "widgetId": "RaLcfxMRtGtgNWMr",
+      "props": {},
+      "visibility": false,
+      "id": "xPoVDfGkagJpLMno"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "1",
+        "name": "Maud Muir"
+      },
+      "visibility": false,
+      "id": "zwWCaXvWUAdBAtjT"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "1",
+        "name": "Kelsey Clifford"
+      },
+      "visibility": false,
+      "id": "JPZJveMeaLkYGnoG"
+    },
+    {
+      "widgetId": "wGHcslFSsluUIBAB",
+      "props": {
+        "score1": "7",
+        "score2": "53"
+      },
+      "visibility": false,
+      "id": "CWFdjKgCwdJRpNXp"
+    },
+    {
+      "widgetId": "iYVRVBrVNaSLHlEX",
+      "props": {
+        "number_of_cards": "1"
+      },
+      "visibility": false,
+      "id": "gwRWotluLXsoThTI"
+    },
+    {
+      "widgetId": "rpHoUwhXkuonOWpy",
+      "props": {
+        "number_of_cards": "1"
+      },
+      "visibility": false,
+      "id": "jQWEQPOjnNmLkaYX"
+    },
+    {
+      "widgetId": "RqVdNJDLxIPFLpNJ",
+      "props": {
+        "number_of_cards": "1T"
+      },
+      "visibility": false,
+      "id": "uObOkSLcFYNPPFHP"
+    },
+    {
+      "widgetId": "pGkRqhjHdDbXwRCa",
+      "props": {
+        "number_of_cards": "9t"
+      },
+      "visibility": false,
+      "id": "WbRQhQWKZaKqgaEP"
+    },
+    {
+      "widgetId": "uKiCDIXQkxFPOWbM",
+      "props": {
+        "name": "Claire Thomas",
+        "position": "Presenter"
+      },
+      "visibility": false,
+      "id": "OKDDIhghGiAyMuqO"
+    },
+    {
+      "widgetId": "uKiCDIXQkxFPOWbM",
+      "props": {
+        "name": "Kat Merchant",
+        "position": "Presenter/Commentaor"
+      },
+      "visibility": false,
+      "id": "CykByKBKJEQZfcPX"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "2",
+        "name": "May Campbell"
+      },
+      "visibility": false,
+      "id": "dnBDXKykiHNPEsIu"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "3",
+        "name": "Alex Ellis"
+      },
+      "visibility": false,
+      "id": "LGqmjrhycgJnHQuh"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "4",
+        "name": "Fiona McIntosh"
+      },
+      "visibility": false,
+      "id": "lBWfEQsbMpFSXaRd"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "5",
+        "name": "Catha Jacobs"
+      },
+      "visibility": false,
+      "id": "cFSVmxvdiEIgubrq"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "6",
+        "name": "Louise McMillan"
+      },
+      "visibility": false,
+      "id": "DrwcHVuAAMjzoPhq"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "7",
+        "name": "Sharifa Kasolo"
+      },
+      "visibility": false,
+      "id": "fUQIiXPNfwhErRKe"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "8",
+        "name": "Grace Moore"
+      },
+      "visibility": false,
+      "id": "HRxqmkHMemTFsMlP"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "9",
+        "name": "Ella Wyrwas"
+      },
+      "visibility": false,
+      "id": "TrENGpYnsZxYMkvN"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "10",
+        "name": "Holly Aitchison"
+      },
+      "visibility": false,
+      "id": "IPoNbAaeAFGhYMXi"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "11",
+        "name": "Lotte Clapp (c)"
+      },
+      "visibility": false,
+      "id": "yQKaEWGCnVvUcSyM"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "12",
+        "name": "Hannah Casey"
+      },
+      "visibility": false,
+      "id": "TVfLYjVAFUFOezsf"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "13",
+        "name": "Sydney Gregson"
+      },
+      "visibility": false,
+      "id": "cOCosZLHgvtEivrK"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "14",
+        "name": "Isla Alejandro"
+      },
+      "visibility": false,
+      "id": "ytURTAPSNSxjzOij"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "15",
+        "name": "Sarah McKenna"
+      },
+      "visibility": false,
+      "id": "AsQlSgCOaZmWbCRS"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "16",
+        "name": "Jodie Rettie"
+      },
+      "visibility": false,
+      "id": "GKjxBftruRpVQMhk"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "2",
+        "name": "Kelsey Jones"
+      },
+      "visibility": false,
+      "id": "BSdLaLXlQtqeQeEU"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "3",
+        "name": "Laura Delgado"
+      },
+      "visibility": false,
+      "id": "jzrApXcakQhKERmm"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "4",
+        "name": "Gwen Crabb"
+      },
+      "visibility": false,
+      "id": "pEYAwlMjbIFcSMwi"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "5",
+        "name": " Samantha Monaghan"
+      },
+      "visibility": false,
+      "id": "OSmLZvUmgNZYxXOj"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "6",
+        "name": "Neve Jones"
+      },
+      "visibility": false,
+      "id": "VAGkWqyWqasXXKfl"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "7",
+        "name": "Bethan Lewis"
+      },
+      "visibility": false,
+      "id": "rljSGDEHApcdXezD"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "8",
+        "name": "Sarah Beckett"
+      },
+      "visibility": false,
+      "id": "wIHPCNOsANWrSgsO"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "9",
+        "name": "Natasha Hunt (c)"
+      },
+      "visibility": false,
+      "id": "yQpiXpyjUiFYDPkm"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "10",
+        "name": "Lleucu George"
+      },
+      "visibility": false,
+      "id": "DiNmNAleTgqXsMEw"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "11",
+        "name": "Lisa Neumann"
+      },
+      "visibility": false,
+      "id": "ajEOqsfVkmOsPFRK"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "12",
+        "name": "Sophie Bridger"
+      },
+      "visibility": false,
+      "id": "FhGwQumlcEeyiGyQ"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "13",
+        "name": "Racehl Lund"
+      },
+      "visibility": false,
+      "id": "DWEulOOyyHGVSIIR"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "14",
+        "name": "Ellie Rugman"
+      },
+      "visibility": false,
+      "id": "PnifOlVPZDkwIhSj"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "15",
+        "name": "Emma Sing"
+      },
+      "visibility": false,
+      "id": "zRsqnprbKtoanigY"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "17",
+        "name": "Mica Gooding"
+      },
+      "visibility": false,
+      "id": "iZiLsnHrkUWBkGpi"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "18",
+        "name": "Jeanina Loyola"
+      },
+      "visibility": false,
+      "id": "hxyPZcPgSgsxFdky"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "19",
+        "name": "Taryn Schutzler"
+      },
+      "visibility": false,
+      "id": "iNexlgjMuQssweJH"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "20",
+        "name": "Katherine Evans"
+      },
+      "visibility": false,
+      "id": "VsdXvVnddvcpFCDd"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "21",
+        "name": "Flo Williams"
+      },
+      "visibility": false,
+      "id": "YMqJitVDmqvHasaF"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "22",
+        "name": "Cara Wardle"
+      },
+      "visibility": false,
+      "id": "bXeNnDmacLHrRCaf"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "23",
+        "name": "Coreen Grant"
+      },
+      "visibility": false,
+      "id": "eAmpxVzXYAIFZhHQ"
+    },
+    {
+      "widgetId": "hijNuEeBhIBNhCbE",
+      "props": {
+        "number": "",
+        "name": "Alex Austerberry",
+        "dor": "DOR"
+      },
+      "visibility": false,
+      "id": "uANJOTvBrwsQbDNm"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "16",
+        "name": "Connie Powell"
+      },
+      "visibility": false,
+      "id": "cooJZARHKmxlEOfj"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "17",
+        "name": "Cara Hope"
+      },
+      "visibility": false,
+      "id": "NSNbvrOVeHkqcMms"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "18",
+        "name": "Sisilia Tuipulotu"
+      },
+      "visibility": false,
+      "id": "GLSnOnLQaqXhykBb"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "19",
+        "name": "Ciara Cooney"
+      },
+      "visibility": false,
+      "id": "aKVVUVbpivnWQhLA"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "20",
+        "name": "Siwan Lillicrap"
+      },
+      "visibility": false,
+      "id": "EcHgKnwSMRPArPpN"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "21",
+        "name": "Mia Venner"
+      },
+      "visibility": false,
+      "id": "WJENcxtQfKzHNJpc"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "22",
+        "name": "Lizzie Goulden"
+      },
+      "visibility": false,
+      "id": "xiVezbxIGOTqDkyC"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "23",
+        "name": "Sophie Tandy"
+      },
+      "visibility": false,
+      "id": "DHYcxAxkZPqRlBfI"
+    },
+    {
+      "widgetId": "zaWAxZNtpgpVAAvh",
+      "props": {
+        "number": "",
+        "name": "Sean Lynn",
+        "dor": "DOR"
+      },
+      "visibility": false,
+      "id": "lboKhvUNvGfunenr"
+    },
+    {
+      "widgetId": "BVOdXCstWNFdZTeO",
+      "props": {
+        "team1": "Gloucester-Hartpury",
+        "pld1": "4",
+        "won1": "4",
+        "draw1": "0",
+        "loss1": "0",
+        "for1": "181",
+        "against1": "39",
+        "bonus1": "3",
+        "points1": "19",
+        "team2": "Exeter Chiefs",
+        "pld2": "4",
+        "won2": "3",
+        "draw2": "0",
+        "loss2": "1",
+        "for2": "209",
+        "against2": "50",
+        "bonus2": "3",
+        "points2": "15",
+        "team3": "Harlequins",
+        "pld3": "4",
+        "won3": "3",
+        "draw3": "0",
+        "loss3": "1",
+        "for3": "97",
+        "against3": "56",
+        "bonus3": "2",
+        "points3": "14",
+        "team4": "Sale Sharks",
+        "pld4": "4",
+        "won4": "3",
+        "draw4": "0",
+        "loss4": "1",
+        "for4": "73",
+        "against4": "83",
+        "bonus4": "1",
+        "points4": "13",
+        "team5": "Bristol Bears",
+        "pld5": "3",
+        "won5": "2",
+        "draw5": "1",
+        "loss5": "1",
+        "for5": "151",
+        "against5": "48",
+        "bonus5": "2",
+        "points5": "10",
+        "team6": "Saracens",
+        "pld6": "4",
+        "won6": "2",
+        "draw6": "0",
+        "loss6": "2",
+        "for6": "84",
+        "against6": "103",
+        "bonus6": "2",
+        "points6": "10",
+        "team7": "Uni. of Worcester Warriors ",
+        "pld7": "3",
+        "won7": "1",
+        "draw7": "0",
+        "loss7": "2",
+        "for7": "63",
+        "against7": "100",
+        "bonus7": "2",
+        "points7": "6",
+        "team8": "Loughborough Lightning",
+        "pld8": "4",
+        "won8": "0",
+        "draw8": "0",
+        "loss8": "4",
+        "for8": "57",
+        "against8": "108",
+        "bonus8": "1",
+        "points8": "1",
+        "team9": "Wasps Women",
+        "pld9": "3",
+        "won9": "0",
+        "draw9": "1",
+        "loss9": "3",
+        "for9": "13",
+        "against9": "162",
+        "bonus9": "0",
+        "points9": "0",
+        "team10": "DMP Sharks",
+        "pld10": "3",
+        "won10": "0",
+        "draw10": "0",
+        "loss10": "3",
+        "for10": "24",
+        "against10": "210",
+        "bonus10": "0",
+        "points10": "0"
+      },
+      "visibility": false,
+      "id": "iDCxTECHDZqoLKlE"
+    },
+    {
+      "widgetId": "UvfUylRNBVCknAiu",
+      "props": {
+        "possession_a": "46",
+        "possession_b": "54",
+        "carries_a": "86",
+        "carries_b": "114",
+        "tackles_a": "136",
+        "tackles_b": "110",
+        "metres_a": "216",
+        "metres_b": "456",
+        "penalties_a": "9",
+        "penalties_b": "13",
+        "territory_a": "",
+        "territory_b": ""
+      },
+      "visibility": false,
+      "id": "YucPhDHyRAyszufW"
+    },
+    {
+      "widgetId": "dZYWAIacwGtuDyze",
+      "props": {
+        "rep1a": "Jodie Rettie",
+        "rep2a": "Mica Gooding",
+        "rep3a": "Jeanina Loyola",
+        "rep4a": "Taryn Schutzler",
+        "rep5a": "Kat Evans",
+        "rep6a": "Flo Williams",
+        "rep7a": "Cara Wardle",
+        "rep8a": "Sarah Bebbingtion",
+        "rep1b": "Connie Powell",
+        "rep2b": "Cara Hope",
+        "rep3b": "Sisilia Tuipulotu",
+        "rep4b": "Siwan Lillicrap",
+        "rep5b": "Ciara Cooney",
+        "rep6b": "Mia Venner",
+        "rep7b": "Lizzie Goulden",
+        "rep8b": "Sophie Tandy"
+      },
+      "visibility": false,
+      "id": "NoeDAtscFrJaRomg"
+    },
+    {
+      "widgetId": "ZGivpgcPRoCTSkIB",
+      "props": {
+        "game1_home": "5",
+        "game1_away": "52",
+        "game2_home": "P",
+        "game2_away": "P",
+        "game3_home": "P",
+        "game3_away": "P",
+        "game4_home": "40",
+        "game4_away": "3",
+        "game5_home": "7",
+        "game5_away": "53"
+      },
+      "visibility": false,
+      "id": "kKVmCHyHVNCqiqbK"
+    },
+    {
+      "widgetId": "uKiCDIXQkxFPOWbM",
+      "props": {
+        "name": "Alex Austerberry",
+        "position": "Director of Rugby, Saracens Womens"
+      },
+      "visibility": false,
+      "id": "PAQXgHxnRqYZDvPM"
+    },
+    {
+      "widgetId": "uKiCDIXQkxFPOWbM",
+      "props": {
+        "name": "Sean Lynn",
+        "position": "Head Coach. Gloucester-Hartpury"
+      },
+      "visibility": false,
+      "id": "isUoAReXrzdEndwC"
+    },
+    {
+      "widgetId": "uKiCDIXQkxFPOWbM",
+      "props": {
+        "name": "Poppy Cleall",
+        "position": " Saracens & England/ Three-time Premier 15s Champion/ 63 England Caps"
+      },
+      "visibility": false,
+      "id": "WxlcsXGscoWGQqTg"
+    },
+    {
+      "widgetId": "uKiCDIXQkxFPOWbM",
+      "props": {
+        "name": "Lotte Clapp",
+        "position": "Saracens Wing"
+      },
+      "visibility": false,
+      "id": "bgEOZRahOZNCxtVo"
+    },
+    {
+      "widgetId": "uKiCDIXQkxFPOWbM",
+      "props": {
+        "name": "Ella Wyrwas",
+        "position": "Saracens Scrum Half"
+      },
+      "visibility": false,
+      "id": "dEokTtyILxjddXcv"
+    },
+    {
+      "widgetId": "uKiCDIXQkxFPOWbM",
+      "props": {
+        "name": "Nathan Middleton",
+        "position": "Commentator"
+      },
+      "visibility": false,
+      "id": "MXOLWfJZAqOPlajI"
+    },
+    {
+      "widgetId": "RaLcfxMRtGtgNWMr",
+      "props": {},
+      "visibility": false,
+      "id": "DWCRvquzEUShMnsI"
+    },
+    {
+      "widgetId": "RaLcfxMRtGtgNWMr",
+      "props": {},
+      "visibility": false,
+      "id": "vHunKhVERVYMDdvq"
+    },
+    {
+      "widgetId": "RaLcfxMRtGtgNWMr",
+      "props": {},
+      "visibility": false,
+      "id": "BSLXHwzGYdvmscox"
+    },
+    {
+      "widgetId": "NZZHGxNUjSPcGyCQ",
+      "props": {
+        "name": "Bob",
+        "position": ""
+      },
+      "visibility": false,
+      "id": "qdmBNkHnfeBrunBi"
+    }
+  ],
+  "outputs": [],
+  "palettes": [
+    {
+      "_events": {},
+      "_eventsCount": 0,
+      "colors": [
+        "rgba(239, 16, 16, 1)",
+        "rgba(81, 191, 33, 1)",
+        "rgba(78, 10, 103, 1)"
+      ],
+      "name": "",
+      "id": "kRbMAvIDJYQhXNuD"
+    }
+  ],
+  "activePalette": [
+    "rgba(239, 16, 16, 1)",
+    "rgba(81, 191, 33, 1)",
+    "rgba(78, 10, 103, 1)"
+  ]
+}
