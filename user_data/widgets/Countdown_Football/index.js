@@ -5,12 +5,12 @@ module.exports = {
 	icon: "stopwatch",
 	hasEntries: false,
 	default: {
-		style: {
-			horizontal_position: "left",
-			vertical_position: "top",
-			width: "50"
+		//style: {
+		//	horizontal_position: "left",
+		//	vertical_position: "top",
+		//	width: "50"
 			
-		},
+		//},
 		props: {
 			type: "timer",
 			seconds: "00:00",
